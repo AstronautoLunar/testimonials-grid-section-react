@@ -1,0 +1,95 @@
+$padding-card: 30px;
+
+div.Card {
+    align-items: flex-start;
+    
+    padding: $padding-card;
+
+    background-repeat: no-repeat;
+    background-position: 22rem 0;
+
+    border-radius: 10px;
+    
+    header.Header {
+        align-items: center;
+        
+        img.ImageUser {
+            border-radius: 100%;
+            border: 3px solid rgba(255, 255, 255, 0.5);
+
+            margin-right: 15px;
+
+            width: 40px;
+            height: 40px;
+        }
+
+        div.column {
+            align-items: flex-start;
+
+            h5 {
+                margin-bottom: 2.5px;
+            }
+        }
+    }
+
+    article.article {
+        padding-top: 20px;
+
+        height: 100%;
+
+        h3 {
+            padding-bottom: $padding-card;
+        }
+
+        q {
+            opacity: 0.5;
+
+            height: 100%;
+
+            text-align: justify;
+
+            font-size: 15px;
+        }
+    }
+}
+
+h5,
+span,
+h3,
+q {
+    font-family: 'Barlow Semi Condensed', Helvetica, sans-serif;
+}
+
+div.Card,
+div.column
+{
+    flex-direction: column;
+}
+
+div.Card,
+header.Header,
+div.column
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#area1 {
+    grid-area: area1;
+}
+
+#area2 {
+    grid-area: area2;
+}
+
+#area3 {
+    grid-area: area3;
+}
+
+#area4 {
+    grid-area: area4;
+}
+
+#area5 {
+    grid-area: area5;
+}

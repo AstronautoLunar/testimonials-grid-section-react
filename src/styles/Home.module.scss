@@ -2,10 +2,31 @@ div.App {
     width: 100%;
 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 
     main#main {
-        margin-top: 20rem;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            "area1 area1 area1 area1 area2 area5"
+            "area3 area4 area4 area4 area4 area5"
+        ;
+        grid-gap: 2rem;
+
+        margin: 10rem 5rem 0;
+
+    }
+}
+
+footer#footer {
+    margin-top: 10rem;
+    
+    div.attribution { 
+        font-size: 11px; text-align: center; 
+        a {
+            color: hsl(228, 45%, 44%); 
+        }
     }
 }
