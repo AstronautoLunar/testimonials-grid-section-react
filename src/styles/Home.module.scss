@@ -15,13 +15,22 @@ div.App {
         ;
         grid-gap: 2rem;
 
-        margin: 10rem 5rem 0;
+        margin: 5rem 5vw 0;
 
+    }
+
+    @media screen and (max-width: 952px) {
+        main#main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
 }
 
 footer#footer {
-    margin-top: 10rem;
+    margin-top: 5rem;
     
     div.attribution { 
         font-size: 11px; text-align: center; 

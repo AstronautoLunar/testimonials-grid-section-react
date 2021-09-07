@@ -6,7 +6,7 @@ div.Card {
     padding: $padding-card;
 
     background-repeat: no-repeat;
-    background-position: 22rem 0;
+    background-position: 28vw 0;
 
     border-radius: 10px;
     
@@ -92,4 +92,11 @@ div.column
 
 #area5 {
     grid-area: area5;
+}
+
+// Adaptações
+@media screen and (max-width: 952px) {
+    div.Card {
+        width: 100%;
+    }
 }
