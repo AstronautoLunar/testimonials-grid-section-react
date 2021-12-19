@@ -1,5 +1,12 @@
 <h1 align="center">Testimonials Grid Section</h1>
 
+<div align="center">
+  <img
+       src="https://github.com/Pyedrown/testimonials-grid-section-react/blob/master/presentation.gif"
+       alt="gif presentation" 
+  />
+</div>
+
 <p align="center">Solução da platafoma Front End Mentor</p>
 
 * [Sobre](#Sobre)
