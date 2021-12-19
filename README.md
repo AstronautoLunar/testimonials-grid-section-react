@@ -1,46 +1,58 @@
-# Getting Started with Create React App
+<h1 align="center">Testimonials Grid Section</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">Solução da platafoma Front End Mentor</p>
 
-## Available Scripts
+* [Sobre](#Sobre)
+* [Pre Requisitos](#Pre-requisitos)
+* [Tecnologias](#tecnologias)
 
-In the project directory, you can run:
+<h4 align="center">
+  ✅ Concluido ✅
+</h4>
 
-### `yarn start`
+## Sobre
+Esse é mais uma das minhas soluções, Usei react, typescript e sass, Gostei muito de todo processo foi bem legal
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Pre Requisitos
+Você precisa apenas de um editor de código e obviamente de um navegador, recomendo usar o google chrome
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Vai precisar também do node js e de algum gerenciador de pacote
 
-### `yarn test`
+* [Node.js](https://nodejs.org/en/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Gerenciadores da Pacote
 
-### `yarn build`
+* [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
+* [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Copie e cole no seu GIT
+```
+git clone https://github.com/Pyedrown/testimonials-grid-section-react
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### E em seguida use
+```
+cd testimonials-grid-section-react
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Faça as instalações das dependências
+```
+npm install
 
-### `yarn eject`
+ou
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+npm i
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Execute o projeto
+```
+yarn start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Tecnologias
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Typescript](https://www.typescriptlang.org)
+- [Node.js](https://nodejs.org/en/)
+- [SASS](https://sass-lang.com)
